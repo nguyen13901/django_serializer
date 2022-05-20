@@ -1,0 +1,9 @@
+Including extra context
+Serializer k có database, khi create, update là create, update trên model 
+-> sau đó serializer class generate data từ model 
+fields, exclude  
+depth 
+Customizing field mappings
+HyperlinkedModelSerializer
+to_representation
+.to_internal_value()
