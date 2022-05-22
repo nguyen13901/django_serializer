@@ -3,6 +3,7 @@ from api_course.models import Category
 
 
 class CategorySerializer(serializers.ModelSerializer):
-    model = Category
-    fields = '__all__'
+    class Meta:
+        model = Category
+        fields = '__all__'
     
