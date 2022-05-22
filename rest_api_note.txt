@@ -7,3 +7,11 @@ Customizing field mappings
 HyperlinkedModelSerializer
 to_representation
 .to_internal_value()
+
+API view, genericviewset, modelviewset
+
+list: get, post
+detail: retrieve(get), put(update), delete
+
+Mixin class
+re_path-regex
